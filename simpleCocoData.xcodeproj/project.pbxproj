@@ -16,6 +16,8 @@
 		5DF92FBD1CBF6738009A5156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF92FBB1CBF6738009A5156 /* LaunchScreen.storyboard */; };
 		5DF92FC81CBF6738009A5156 /* simpleCocoDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF92FC71CBF6738009A5156 /* simpleCocoDataTests.m */; };
 		5DF92FD31CBF6738009A5156 /* simpleCocoDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF92FD21CBF6738009A5156 /* simpleCocoDataUITests.m */; };
+		5DF92FE41CBF6797009A5156 /* Data+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF92FE11CBF6797009A5156 /* Data+CoreDataProperties.m */; };
+		5DF92FE51CBF6797009A5156 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF92FE31CBF6797009A5156 /* Data.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		5DF92FCE1CBF6738009A5156 /* simpleCocoDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleCocoDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF92FD21CBF6738009A5156 /* simpleCocoDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleCocoDataUITests.m; sourceTree = "<group>"; };
 		5DF92FD41CBF6738009A5156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF92FE01CBF6797009A5156 /* Data+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Data+CoreDataProperties.h"; sourceTree = "<group>"; };
+		5DF92FE11CBF6797009A5156 /* Data+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Data+CoreDataProperties.m"; sourceTree = "<group>"; };
+		5DF92FE21CBF6797009A5156 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		5DF92FE31CBF6797009A5156 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 		5DF92F9E1CBF6738009A5156 = {
 			isa = PBXGroup;
 			children = (
+				5DF92FE01CBF6797009A5156 /* Data+CoreDataProperties.h */,
+				5DF92FE11CBF6797009A5156 /* Data+CoreDataProperties.m */,
+				5DF92FE21CBF6797009A5156 /* Data.h */,
+				5DF92FE31CBF6797009A5156 /* Data.m */,
 				5DF92FA91CBF6738009A5156 /* simpleCocoData */,
 				5DF92FC61CBF6738009A5156 /* simpleCocoDataTests */,
 				5DF92FD11CBF6738009A5156 /* simpleCocoDataUITests */,
@@ -276,10 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF92FE41CBF6797009A5156 /* Data+CoreDataProperties.m in Sources */,
 				5DF92FB21CBF6738009A5156 /* ViewController.m in Sources */,
 				5DF92FAF1CBF6738009A5156 /* AppDelegate.m in Sources */,
 				5DF92FAC1CBF6738009A5156 /* main.m in Sources */,
 				5DF92FB81CBF6738009A5156 /* simpleCocoData.xcdatamodeld in Sources */,
+				5DF92FE51CBF6797009A5156 /* Data.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
