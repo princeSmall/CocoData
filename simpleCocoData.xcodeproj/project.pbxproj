@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DF92FAC1CBF6738009A5156 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF92FAB1CBF6738009A5156 /* main.m */; };
+		5DF92FAF1CBF6738009A5156 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF92FAE1CBF6738009A5156 /* AppDelegate.m */; };
+		5DF92FB21CBF6738009A5156 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF92FB11CBF6738009A5156 /* ViewController.m */; };
+		5DF92FB51CBF6738009A5156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF92FB31CBF6738009A5156 /* Main.storyboard */; };
+		5DF92FB81CBF6738009A5156 /* simpleCocoData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DF92FB61CBF6738009A5156 /* simpleCocoData.xcdatamodeld */; };
+		5DF92FBA1CBF6738009A5156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF92FB91CBF6738009A5156 /* Assets.xcassets */; };
+		5DF92FBD1CBF6738009A5156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF92FBB1CBF6738009A5156 /* LaunchScreen.storyboard */; };
+		5DF92FC81CBF6738009A5156 /* simpleCocoDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF92FC71CBF6738009A5156 /* simpleCocoDataTests.m */; };
+		5DF92FD31CBF6738009A5156 /* simpleCocoDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF92FD21CBF6738009A5156 /* simpleCocoDataUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DF92FC41CBF6738009A5156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF92F9F1CBF6738009A5156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DF92FA61CBF6738009A5156;
+			remoteInfo = simpleCocoData;
+		};
+		5DF92FCF1CBF6738009A5156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF92F9F1CBF6738009A5156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DF92FA61CBF6738009A5156;
+			remoteInfo = simpleCocoData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DF92FA71CBF6738009A5156 /* simpleCocoData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleCocoData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF92FAB1CBF6738009A5156 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DF92FAD1CBF6738009A5156 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DF92FAE1CBF6738009A5156 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DF92FB01CBF6738009A5156 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DF92FB11CBF6738009A5156 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DF92FB41CBF6738009A5156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DF92FB71CBF6738009A5156 /* simpleCocoData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = simpleCocoData.xcdatamodel; sourceTree = "<group>"; };
+		5DF92FB91CBF6738009A5156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DF92FBC1CBF6738009A5156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DF92FBE1CBF6738009A5156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF92FC31CBF6738009A5156 /* simpleCocoDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleCocoDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF92FC71CBF6738009A5156 /* simpleCocoDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleCocoDataTests.m; sourceTree = "<group>"; };
+		5DF92FC91CBF6738009A5156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF92FCE1CBF6738009A5156 /* simpleCocoDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleCocoDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF92FD21CBF6738009A5156 /* simpleCocoDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleCocoDataUITests.m; sourceTree = "<group>"; };
+		5DF92FD41CBF6738009A5156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DF92FA41CBF6738009A5156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF92FC01CBF6738009A5156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF92FCB1CBF6738009A5156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DF92F9E1CBF6738009A5156 = {
+			isa = PBXGroup;
+			children = (
+				5DF92FA91CBF6738009A5156 /* simpleCocoData */,
+				5DF92FC61CBF6738009A5156 /* simpleCocoDataTests */,
+				5DF92FD11CBF6738009A5156 /* simpleCocoDataUITests */,
+				5DF92FA81CBF6738009A5156 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DF92FA81CBF6738009A5156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DF92FA71CBF6738009A5156 /* simpleCocoData.app */,
+				5DF92FC31CBF6738009A5156 /* simpleCocoDataTests.xctest */,
+				5DF92FCE1CBF6738009A5156 /* simpleCocoDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DF92FA91CBF6738009A5156 /* simpleCocoData */ = {
+			isa = PBXGroup;
+			children = (
+				5DF92FAD1CBF6738009A5156 /* AppDelegate.h */,
+				5DF92FAE1CBF6738009A5156 /* AppDelegate.m */,
+				5DF92FB01CBF6738009A5156 /* ViewController.h */,
+				5DF92FB11CBF6738009A5156 /* ViewController.m */,
+				5DF92FB31CBF6738009A5156 /* Main.storyboard */,
+				5DF92FB91CBF6738009A5156 /* Assets.xcassets */,
+				5DF92FBB1CBF6738009A5156 /* LaunchScreen.storyboard */,
+				5DF92FBE1CBF6738009A5156 /* Info.plist */,
+				5DF92FB61CBF6738009A5156 /* simpleCocoData.xcdatamodeld */,
+				5DF92FAA1CBF6738009A5156 /* Supporting Files */,
+			);
+			path = simpleCocoData;
+			sourceTree = "<group>";
+		};
+		5DF92FAA1CBF6738009A5156 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF92FAB1CBF6738009A5156 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DF92FC61CBF6738009A5156 /* simpleCocoDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DF92FC71CBF6738009A5156 /* simpleCocoDataTests.m */,
+				5DF92FC91CBF6738009A5156 /* Info.plist */,
+			);
+			path = simpleCocoDataTests;
+			sourceTree = "<group>";
+		};
+		5DF92FD11CBF6738009A5156 /* simpleCocoDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DF92FD21CBF6738009A5156 /* simpleCocoDataUITests.m */,
+				5DF92FD41CBF6738009A5156 /* Info.plist */,
+			);
+			path = simpleCocoDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DF92FA61CBF6738009A5156 /* simpleCocoData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF92FD71CBF6738009A5156 /* Build configuration list for PBXNativeTarget "simpleCocoData" */;
+			buildPhases = (
+				5DF92FA31CBF6738009A5156 /* Sources */,
+				5DF92FA41CBF6738009A5156 /* Frameworks */,
+				5DF92FA51CBF6738009A5156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpleCocoData;
+			productName = simpleCocoData;
+			productReference = 5DF92FA71CBF6738009A5156 /* simpleCocoData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DF92FC21CBF6738009A5156 /* simpleCocoDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF92FDA1CBF6738009A5156 /* Build configuration list for PBXNativeTarget "simpleCocoDataTests" */;
+			buildPhases = (
+				5DF92FBF1CBF6738009A5156 /* Sources */,
+				5DF92FC01CBF6738009A5156 /* Frameworks */,
+				5DF92FC11CBF6738009A5156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DF92FC51CBF6738009A5156 /* PBXTargetDependency */,
+			);
+			name = simpleCocoDataTests;
+			productName = simpleCocoDataTests;
+			productReference = 5DF92FC31CBF6738009A5156 /* simpleCocoDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DF92FCD1CBF6738009A5156 /* simpleCocoDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF92FDD1CBF6738009A5156 /* Build configuration list for PBXNativeTarget "simpleCocoDataUITests" */;
+			buildPhases = (
+				5DF92FCA1CBF6738009A5156 /* Sources */,
+				5DF92FCB1CBF6738009A5156 /* Frameworks */,
+				5DF92FCC1CBF6738009A5156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DF92FD01CBF6738009A5156 /* PBXTargetDependency */,
+			);
+			name = simpleCocoDataUITests;
+			productName = simpleCocoDataUITests;
+			productReference = 5DF92FCE1CBF6738009A5156 /* simpleCocoDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DF92F9F1CBF6738009A5156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tongle;
+				TargetAttributes = {
+					5DF92FA61CBF6738009A5156 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9TR8XAZ6W8;
+					};
+					5DF92FC21CBF6738009A5156 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9TR8XAZ6W8;
+						TestTargetID = 5DF92FA61CBF6738009A5156;
+					};
+					5DF92FCD1CBF6738009A5156 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9TR8XAZ6W8;
+						TestTargetID = 5DF92FA61CBF6738009A5156;
+					};
+				};
+			};
+			buildConfigurationList = 5DF92FA21CBF6738009A5156 /* Build configuration list for PBXProject "simpleCocoData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DF92F9E1CBF6738009A5156;
+			productRefGroup = 5DF92FA81CBF6738009A5156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DF92FA61CBF6738009A5156 /* simpleCocoData */,
+				5DF92FC21CBF6738009A5156 /* simpleCocoDataTests */,
+				5DF92FCD1CBF6738009A5156 /* simpleCocoDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DF92FA51CBF6738009A5156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF92FBD1CBF6738009A5156 /* LaunchScreen.storyboard in Resources */,
+				5DF92FBA1CBF6738009A5156 /* Assets.xcassets in Resources */,
+				5DF92FB51CBF6738009A5156 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF92FC11CBF6738009A5156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF92FCC1CBF6738009A5156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DF92FA31CBF6738009A5156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF92FB21CBF6738009A5156 /* ViewController.m in Sources */,
+				5DF92FAF1CBF6738009A5156 /* AppDelegate.m in Sources */,
+				5DF92FAC1CBF6738009A5156 /* main.m in Sources */,
+				5DF92FB81CBF6738009A5156 /* simpleCocoData.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF92FBF1CBF6738009A5156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF92FC81CBF6738009A5156 /* simpleCocoDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF92FCA1CBF6738009A5156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF92FD31CBF6738009A5156 /* simpleCocoDataUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DF92FC51CBF6738009A5156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DF92FA61CBF6738009A5156 /* simpleCocoData */;
+			targetProxy = 5DF92FC41CBF6738009A5156 /* PBXContainerItemProxy */;
+		};
+		5DF92FD01CBF6738009A5156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DF92FA61CBF6738009A5156 /* simpleCocoData */;
+			targetProxy = 5DF92FCF1CBF6738009A5156 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DF92FB31CBF6738009A5156 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF92FB41CBF6738009A5156 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DF92FBB1CBF6738009A5156 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF92FBC1CBF6738009A5156 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DF92FD51CBF6738009A5156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DF92FD61CBF6738009A5156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DF92FD81CBF6738009A5156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = simpleCocoData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tongle.simpleCocoData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DF92FD91CBF6738009A5156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = simpleCocoData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tongle.simpleCocoData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DF92FDB1CBF6738009A5156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = simpleCocoDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tongle.simpleCocoDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simpleCocoData.app/simpleCocoData";
+			};
+			name = Debug;
+		};
+		5DF92FDC1CBF6738009A5156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = simpleCocoDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tongle.simpleCocoDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simpleCocoData.app/simpleCocoData";
+			};
+			name = Release;
+		};
+		5DF92FDE1CBF6738009A5156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = simpleCocoDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tongle.simpleCocoDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = simpleCocoData;
+			};
+			name = Debug;
+		};
+		5DF92FDF1CBF6738009A5156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = simpleCocoDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tongle.simpleCocoDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = simpleCocoData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DF92FA21CBF6738009A5156 /* Build configuration list for PBXProject "simpleCocoData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF92FD51CBF6738009A5156 /* Debug */,
+				5DF92FD61CBF6738009A5156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF92FD71CBF6738009A5156 /* Build configuration list for PBXNativeTarget "simpleCocoData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF92FD81CBF6738009A5156 /* Debug */,
+				5DF92FD91CBF6738009A5156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DF92FDA1CBF6738009A5156 /* Build configuration list for PBXNativeTarget "simpleCocoDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF92FDB1CBF6738009A5156 /* Debug */,
+				5DF92FDC1CBF6738009A5156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DF92FDD1CBF6738009A5156 /* Build configuration list for PBXNativeTarget "simpleCocoDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF92FDE1CBF6738009A5156 /* Debug */,
+				5DF92FDF1CBF6738009A5156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5DF92FB61CBF6738009A5156 /* simpleCocoData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DF92FB71CBF6738009A5156 /* simpleCocoData.xcdatamodel */,
+			);
+			currentVersion = 5DF92FB71CBF6738009A5156 /* simpleCocoData.xcdatamodel */;
+			path = simpleCocoData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5DF92F9F1CBF6738009A5156 /* Project object */;
+}
